@@ -33,12 +33,12 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ]  Implement the project on this branch, committing changes regularly.
-- [ ]  Push commits: `git push origin <firstName-lastName>`.
+- [ x]  Create a forked copy of this project.
+- [ x]  Add TL as collaborator on GitHub.
+- [x ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [ x]  Implement the project on this branch, committing changes regularly.
+- [ x]  Push commits: `git push origin <firstName-lastName>`.
 - [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [ ]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
 - [ ]  **RUN** `yarn start` or `npm start` to fire up your React application.
@@ -72,10 +72,6 @@ _Add a Router to this application using [React Router](https://reacttraining.com
 - [ ]  Hook up the Welcome page(Home page) and a Characters page with React Router.
 - [ ]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
 
-_Add 'Search by Name' feature._
-
-- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
-- [ ]  Create a search form that will filter through the data displayed in the character list.
 
 ### **Required best practices:**
 
@@ -97,6 +93,7 @@ There's a range of difficulty in the options below. 😈
 
 *Note:* The most difficult stretch goal(s) could take an expert an hour or more.
 
+
 Start with the most *familiar (or fun) sounding* stretch goal.
 Complete search component to your list views.
 - [ ] Try adding 2 more components and display data from the episodes and locations end point.
@@ -113,6 +110,13 @@ Complete search component to your list views.
 - [ ]  Refactor to use as few Components as possible - while still readable to a React Dev. (Hint: research these patterns: HoC, render props, FaaC.)
 - [ ]  Add additional fields to search form. They are unique for each endpoint. See **[Available parameters**.](https://rickandmortyapi.com/documentation/#filter-characters), etc..
 - [ ]  Use the [GraphQL Endpoint](https://rickandmortyapi.com/documentation/#graphql) with multiple search fields.
+
+_Add 'Search by Name' feature._
+
+- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
+- [ ]  Create a search form that will filter through the data displayed in the character list.
+
+
 
 > 💡Reminder: git commit -am 'Stretch Progress 💪'
 
